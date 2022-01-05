@@ -18,7 +18,7 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
-PICS = (environ.get("PICS")).split()
+PICS = (environ.get('PICS', ' https://telegra.ph/file/09763cbebd1809f7d4e08.jpg https://telegra.ph/file/6ee69888c37a3a1978206.jpg https://telegra.ph/file/ef550188f53df7a921ab0.jpg https://telegra.ph/file/1a015b502d55237662a99.jpg https://telegra.ph/file/ccdcc8e3915cece8123e4.jpg')).split()
 if str(getenv("SUPPORT_CHANNEL")).strip() == "":
     SUPPORT_CHANNEL = None
 else:

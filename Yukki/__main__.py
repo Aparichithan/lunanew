@@ -11,7 +11,7 @@ from rich.table import Table
 from youtubesearchpython import VideosSearch
 
 from Yukki import (ASSID, ASSMENTION, ASSNAME, ASSUSERNAME, BOT_ID, BOT_NAME,
-                   BOT_USERNAME, SUDOERS, app, db, pymongodb, userbot)
+                   BOT_USERNAME, SUDOERS, app, db, pymongodb, userbot, PICS)
 from Yukki.Core.Logger.Log import (startup_delete_last, startup_edit_last,
                                    startup_send_new)
 from Yukki.Core.PyTgCalls.Yukki import run
@@ -210,8 +210,9 @@ async def start_command(_, message):
                 reply_markup=key,
             )
     out = private_panel()
-    return await message.reply_text(
-        home_text_pm,
+    return await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=home_text_pm,
         reply_markup=InlineKeyboardMarkup(out[1]),
     )
 

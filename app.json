@@ -40,6 +40,11 @@
       "value": ".",
       "required": true
     },
+    "PICS": {
+      "description": "unlimited start pic for your Music Bot  add one by one litile sapce .",
+      "value": "",
+      "required": true
+    },
     "MONGO_DB_URI": {
       "description": "Mongo DB URL",
       "value": "",

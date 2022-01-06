@@ -92,7 +92,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    "➕ ADD ME TO YOUR Group",
+                    "➕ ADD ME TO YOUR GROUP",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
@@ -107,7 +107,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    "➕ ADD ME TO YOUR Group",
+                    "➕ ADD ME TO YOUR GROUP",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
@@ -127,7 +127,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    "➕ ADD ME TO your Group",
+                    "➕ ADD ME TO YOUR GROUP",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
@@ -147,7 +147,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    "➕ ADD me to your Group",
+                    "➕ ADD ME TO YOUR GROUP",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
